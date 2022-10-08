@@ -32,10 +32,11 @@ namespace GIT_es1
 
             Random rnd = new Random();
 
+            //ciclu per caricare il vettore di numeri casuali
             for (int i = 0; i < 10; i++)
                 v[i] = rnd.Next(0, 100);
 
-            
+            double somma = 0;
 
             for (int i = 0; 1 < 10; i++)
                 somma += v[i];
